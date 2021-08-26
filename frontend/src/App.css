@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+ 
+.App {
+    
+    overflow-x: hidden;
+}
+
+/**********font-family: 'Lato', sans-serif; font-size: 16px;
+    font-weight: 600;***********/
+
+
+/**************chekout steps****************/
+
+.checkout-steps > div {
+    border-top: 0.3rem #c0c0c0 solid;
+    color: #c0c0c0;
+    flex: 1;
+    padding: 1rem;
+    font-weight: bold;
+  }
+  .checkout-steps > div.active {
+    border-top-color: #f08000;
+    color: #f08000;
+  }

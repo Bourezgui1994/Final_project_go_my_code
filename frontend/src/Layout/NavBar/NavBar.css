@@ -1,0 +1,94 @@
+/*--------------NavBar----------------*/
+
+
+.navLink, #basic-nav-dropdown  {
+    color: rgb(47, 117, 47) !important;
+    text-transform: uppercase;
+    font-size: 17px;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+  }
+
+.navLink:hover ,#basic-nav-dropdown:hover  {
+    color: #fff002 !important;
+    border-bottom: 1px solid #fff002;
+}
+
+ .dropdownItem {
+    background:  #fff45f !important;
+}
+
+.myReact-icons{
+  
+  display: flex;
+  justify-content: space-between;
+  width: 45px;
+  color: black;
+  
+}
+
+.myReact-icons :hover{
+  color: #ffaf02;
+}
+
+.numberItems{
+  position: absolute;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 0.2rem 0.7rem;
+  font-size: 0.8rem;
+  top:30%;
+  margin-left: 30px;
+}
+
+
+/************************Modal*********************************/
+
+
+
+.modal-header{
+  background-color: orange;
+}
+
+.modal input {
+  border-radius:25px;
+  border: black 1px solid;
+}
+
+.modal .btn {
+  border-radius: 13px;
+}
+
+.formModal input {
+  width: 65vh;
+}
+
+.nameAdmin{
+  color: green;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nameAdmin:hover{
+  color: green;
+
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.viewAdmin{
+  display: flex;
+  
+}
+
+.linkAdmin {
+  color: black;
+  text-decoration: none;
+}
+
+.linkAdmin:hover{
+  color: #ffaf02;
+}

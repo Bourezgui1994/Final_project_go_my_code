@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&display=swap');
+
+
+/*---------------component Header-------------*/
+.btnCarousel {
+  color: white !important;
+  border-radius: 100px  !important; 
+  font-weight: bold !important;
+}
+
+.btnCarousel :hover {
+background-color: green !important;
+}
+
+.titleHeader{
+  padding-bottom: 40px;
+}
+
+.titleHeader h2{
+  font-family: 'Satisfy', cursive;
+  font-size: 50px;
+}
+
+.titleHeader p{
+  font-weight: 500;
+  font-size: 25px;
+}
+/*--------------section catégorie produit--------*/
+h1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 80px;
+  color:black;
+}
+h1 span {
+  color:#6AAF08;
+}
+
+.ligne {
+    height: 2px !important;
+    width: 120px;
+    color: rgb(0, 0, 0) !important;
+    background-color: rgb(0, 0, 0);
+}
+
+.iconSeparateur{
+  display: flex;
+  justify-content: center;
+  
+}
+
+/*--------Catégorie produit --------*/
+
+
+.imageCategoryProduct{
+  height:38vh;
+  width:100vh;
+}
+
+.card-group {
+display: flex;
+justify-content: center;
+}
+.card-group .card {
+  box-shadow: 3px 3px gainsboro;
+  margin-top: 80px;
+  
+}
+
+.card-group .card:hover {
+  transform: scale(1.09);
+
+}
+
+
+.btn-group {
+  margin: 80px 200px 50px 400px;
+}
+
+.tagButton{
+  border-radius: 50px;
+}
+
+
+
+/*--------------------Specifity product------------------*/
+
+.SpecifityProduct{
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 10px 40px 10px 60px !important;
+  
+}
+
+
+.iconSpecifityProduct :hover{
+  color :teal;
+  
+}
+/*--------------------Card New Product------------------*/
+
+.carousel-inner .card-body{
+  background-color: rgb(245, 239, 184);
+}
+
+.carouselNewProduct{
+  margin-top: 70px !important;
+}
+
+.carousel-control-next-icon , .carousel-control-prev-icon{
+  margin-left: -90px !important;
+
+}
+
+.cardNewProduct{
+  box-shadow: 3px 3px rgb(172, 169, 169);
+}
+
+/*--------------------Gallery Image-----------------------*/
+
+.containerImage {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
+  -webkit-column-width: 33%;
+  column-width: 33%;
+  padding: 0 300px;  
+}
+
+.imageGallerie {
+  width: 100%;
+  box-shadow: 3px 3px 3px 3px gainsboro;
+  margin-top: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/************Event*******************************************/
+.cardEvents{
+ margin:60px 30px 100px 70px ;
+}
+
+.cardEvents .card {
+  box-shadow: 1px 1px 1px 1px rgb(172, 169, 169);
+
+}
