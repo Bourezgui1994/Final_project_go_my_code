@@ -34,8 +34,7 @@ import CartArtisanalScreen from './Screens/Cart/CartArtisanalScreen';
 
 //import Footer component 
 import Footer from './Layout/Footer/Footer';
-// import contact screen
-import ContactScreen from './Screens/Contact/ContactScreen';
+
 // import signin screen
 import SigninScreen from './Screens/Signin/SigninScreen';
 // import register screen
@@ -107,7 +106,6 @@ function App() {
           <AdminRoute path="/user/:id/edit" component={UserEditScreen}/> 
           <AdminRoute path="/discussion" component={DiscussionScreen}/> 
 
-          <Route exact path='/Contact' component={ContactScreen}/>
 
 
         </Switch>

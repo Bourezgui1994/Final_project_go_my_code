@@ -48,13 +48,13 @@ const LocalProductScreen = () => {
         </div>
         
         <div className="row">
-        <div className="col-md-4">
+        <div className="col-md-3">
         <FilterProduct/>
         <Route render={({history}) => (<SearchBox history={history}> </SearchBox>)}> </Route>
           
         </div>
 
-        <div className="cardProduct col-md-8 mt-5 "> 
+        <div className="cardProduct col-md-9 mt-5 "> 
         
         {products.map((product) => (
             <CardProduct key={product._id} product={product}/> ))}

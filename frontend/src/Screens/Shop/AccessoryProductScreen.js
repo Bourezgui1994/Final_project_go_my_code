@@ -43,11 +43,11 @@ const AccessoryProductScreen = () => {
         </div>
         
         <div className="row">
-        <div className="col-md-4 mt-5 ">
+        <div className="col-md-3 mt-5 ">
             <FilterProduct/>
         </div>
 
-        <div className="cardProduct col-md-8 mt-5 "> 
+        <div className="cardProduct col-md-9 mt-5 "> 
         
         {products.map((product) => (
             <CardAccessoryProduct key={product._id} product={product}/> ))}

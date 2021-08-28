@@ -39,7 +39,6 @@ const NavBar = () => {
                 <NavDropdown.Item as={Link} to={'/AccessoryProductScreen'} className="dropdownItem"> Accessoires</NavDropdown.Item>
               </NavDropdown>
               <Nav.Link as={Link} to={'/cart'} className="navLink"> Panier</Nav.Link>
-              <Nav.Link as={Link} to={'/Contact'}  className="navLink"> Contact</Nav.Link>
             </Nav>
           
         
