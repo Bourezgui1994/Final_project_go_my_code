@@ -3,22 +3,16 @@ import { FaPhoneAlt ,FaMap,FaFacebook, FaTwitter, FaInstagram, FaYoutube } from 
 import {MdEmail} from "react-icons/md";
 import './Footer.css';
 import {Link} from "react-router-dom";
-import ChatBox from '../../Components/ChatBox';
-import { useSelector } from 'react-redux';
 
 
 
 const Footer = () => {
 
-    const userSignin = useSelector((state) => state.userSignin);
-    const { userInfo } = userSignin;
     return (
-        <div>
+       
 
             <footer class="mt-5">
-
-            {userInfo && !userInfo.isAdmin && <ChatBox userInfo={userInfo} />}
-            
+        
                 <div class="container-fluid text-white bg-dark mt-5 "> 
 
                 <div class="row">
@@ -123,10 +117,6 @@ const Footer = () => {
 
             </footer>
 
-       
-        
-
-        </div>
     )
 }
 

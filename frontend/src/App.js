@@ -60,7 +60,6 @@ import SearchScreen from './Screens/Shop/SearchScreen';
 import CartAccessoryScreen from './Screens/Cart/CartAccessoryScreen';
 import ProductListArtisanalScreen from './Screens/Admin/ProductListArtisanalScreen';
 import ProductEditArtisanalScreen from './Screens/Admin/ProductEditArtisanalScreen';
-import DiscussionScreen from './Screens/Admin/DiscussionScreen';
 
 
 
@@ -104,7 +103,6 @@ function App() {
 
           <AdminRoute path="/userList" component={UserListScreen}/> 
           <AdminRoute path="/user/:id/edit" component={UserEditScreen}/> 
-          <AdminRoute path="/discussion" component={DiscussionScreen}/> 
 
 
 
